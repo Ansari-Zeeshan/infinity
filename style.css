@@ -34,7 +34,7 @@ body
 
 
 .border {
-    border: 1px solid #dfe2e4!important;
+    border: 2px solid #dfe2e4!important;
 }
 p
 {
@@ -81,6 +81,13 @@ header nav span button:hover
 {
    background: #58C4BA;
    color: #fff;
+}
+.text-decoration-underline
+{
+   letter-spacing: 0.5px;
+   color: #4C7FBC;
+   font-family: var(--mont);
+   font-size: 14px;
 }
 .main
 {
@@ -559,7 +566,7 @@ border-radius: 15px 0px;
    position: relative;
    border-radius: 11px;
    opacity: 1;
-   border: 1px solid #DFE2E4;
+   border: 2px solid #DFE2E4;
 }
 
 .icon-card2 h5{
@@ -728,7 +735,7 @@ footer .list-group1 {
    }
 
    .contact-card{
-      width: 75% !important;
+      width: 97% !important;
    }
 
    .bg3{
@@ -856,7 +863,7 @@ footer .list-group1 {
 .how_works .icon-card2 {
     width: 235px;
     height: 185px;
-    border: 1px solid #DFE2E4;
+    border: 2px solid #DFE2E4;
     position: relative;
     border-radius: 20px;
     opacity: 1;
@@ -867,11 +874,11 @@ footer .list-group1 {
 }
 .bg-white .middle1:last-child .icon-card2 {
     width: 235px;
-    height: 202px;
+    height: 185px;
     box-shadow: 0px 8px 24px #00000015;
     border: 1px solid #DFE2E4;
     position: relative;
-    border-radius: 15px;
+    border-radius: 20px;
     opacity: 1;
 
 }
@@ -1008,7 +1015,7 @@ footer .list-group1{
    bottom: 32px;
 }
 
-@media (max-width:600px){
+@media (max-width:750px){
    .middle1{
        margin-top:35px;
        margin-bottom:35px;
@@ -1022,7 +1029,7 @@ footer .list-group1{
    }
 
    .card-items {
-      top: -240px;
+      top: -125px;
    }
    .section1 .content-div .rectangle-div {
       top: 274px;
@@ -1059,11 +1066,6 @@ footer .list-group1{
     background-position: 215px center;
     background-repeat: no-repeat;
 }
-
-.banner-policy .div-right
-{
-   position: relative;
-}
 .banner-policy .overlay {
     position: absolute;
     top: 47px;
@@ -1076,6 +1078,11 @@ footer .list-group1{
     background-position: 50px center;
     background-repeat: no-repeat;
 }
+.banner-policy .div-right
+{
+   position: relative;
+}
+
 .banner-policy .div-right img
 {
    position: relative;
@@ -1494,12 +1501,22 @@ footer .list-group1{
     width: 40px;
     height: 38px;
    }
-   /* .section1 {
-    margin-top: 1rem;
-   } */
-   .section1 h1 {
-    font-weight: 600;
-    font-size: 32px;
+   .section1 {
+    margin-top: 5rem;
+   }
+   .section1 h1,h1.borrow, .how_works .text-center h1, .how_works2 .text-center h1, .benefit-div .fw-bolder {
+    font-weight: 600 !important;
+    font-size: 33px;
+   }
+   .text-center p.borrowp, .how_works .text-center p, .how_works2 .text-center p {
+    font-size: 13px;
+    margin-top: 0px;
+   }
+   .how_works .text-center h5, .how_works h5.how_main, .how_works2 h5.how_main {
+    font-size: 19px;
+   }
+   .benefit-div .text1 h5, .animate_div2 .text1 h5, .how_works .text1 h5, .how_works2 .mytext h5, .bg3 .contact-card>h5 {
+    font-size: 17px;
    }
    .section1 h1::after {
     top: 7%;
@@ -1600,7 +1617,11 @@ footer .list-group1{
    }
    .carousel-inner .head-title h1 {
     width: 50%;
-    font-size: 28px;
+    font-size: 30px;
+   }
+   .carousel-inner .head-title h3
+   {
+      font-size: 18px;
    }
    .mycard.pb-5
    {
@@ -1731,15 +1752,15 @@ footer .list-group1{
     height: 60px;
    }
    .banner-policy .overlay-big {
-    top: -88px;
+    top: -104px;
     background-position: 11px center;
     height: 135%;
    }
-   .banner-policy .div-right .overlay {
-    top: 11px;
-    height: 90%;
-    right: 0%;
-    width: 103%;
+   .banner-policy .overlay {
+    top: 63px;
+    width: 100%;
+    height: 67%;
+    background-position: 62px center;
    }
    .banner-policy .div-right img {
     margin: 42px 0 0 11px;
@@ -1910,6 +1931,34 @@ footer .list-group1{
      animation-duration: 6s;
      animation-delay: 1.5s;
      animation-fill-mode: forwards;
+   }
+   .terms-content p.terms_condition {
+    font-size: 14px;
+   }
+   footer .footer-bg img
+   {
+      margin-bottom: 2.8rem;
+   }
+   footer .footer-bg .list-group1 li {
+    padding-top: 0px;
+   }
+   footer .footer-bg ul.list-group1
+   {
+      padding: 0 0 0.3rem !important;
+   }
+   footer .footer-bg ul.pt-4
+   {
+      padding-top: 0rem !important;
+   }
+   .Iam b
+   {
+      font-weight: bold;
+   }
+   .Iam {
+    font: bold 27px/40px Montserrat !important;
+   }
+   .contact-card form label {
+    font-size: 12px;
    }
 }
 
